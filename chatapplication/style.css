@@ -1,0 +1,51 @@
+body{
+    overflow-x: hidden;
+    background-color: #34495e;
+    box-sizing: border-box;
+}
+.front{
+    color: #fff; 
+    font-size: 20px;
+}
+.container-fluid{
+    height: 100vh;
+}
+#content a{
+    color: red;
+}
+.card{
+    min-height: 400px;
+}
+.chat-card{
+    margin-bottom: -37px;
+    max-height: 400px !important;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.highlight{
+    margin-bottom: 40px !important;
+}
+.chat{
+    position: relative;
+    z-index: 500 !important;
+}
+.chat input {
+    padding: 6px;
+    outline: none;
+}
+.chat input[type='text'] {
+    width: 70%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+.chat input[type='submit'] {
+    width: 29%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+.fullname{
+    color: green;
+    font-weight: bold;
+}
